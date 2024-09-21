@@ -11,7 +11,7 @@ const root = ReactDm.createRoot(document.getElementById("root"));
 
 root.render(
 
-    <BrowserRouter>
+    <BrowserRouter basename="/project2">
 
         <App />
 
