@@ -1,0 +1,20 @@
+
+
+.cart-page {
+    background-image: url("../../assets/images/women/30.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: top;
+}
+.cart-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-page div h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.cart-page div p {
+    color: #fff;
+}

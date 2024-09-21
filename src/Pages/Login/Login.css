@@ -1,0 +1,80 @@
+
+
+.form-container {
+    min-height: 100vh;
+    background-image: url("../../assets/images/bachground/06.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.form-boxes {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    flex-direction: column;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-boxes h3 {
+    font-size: 24px;
+    margin: 25px auto;
+    text-transform: uppercase;
+    color: black;
+}
+
+.form-boxes .box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.form-boxes .label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form-boxes .remember-pass {
+    display: flex;
+    padding: 25px;
+    width: 100%;
+}
+
+.form-boxes .remember-pass label {
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+.form-boxes .remember-pass a {
+    margin-left: auto;
+    color: black;
+}
+
+.login-or-signin {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    
+}
+
+.form-boxes p {
+    font-size: 16px;
+    color: black;
+
+}
+
+.form-boxes a {
+    color: green;
+    padding-left: 20px;
+    text-align: end;
+}

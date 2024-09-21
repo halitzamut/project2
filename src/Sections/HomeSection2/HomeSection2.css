@@ -1,0 +1,71 @@
+
+
+.product-1 .pro {
+    border: 1px solid #77777777;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px #0000001a;
+    width: 250px;
+    margin: auto;
+    height: 420px;
+}
+
+.product-1 .pro:hover {
+    box-shadow: 0 8px 16px #00000066;
+}
+
+.product-1 .pro img {
+    width: 200px;
+    border-radius: 8px;
+    height: 250px;
+}
+
+.product-1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.product-1 .pro .des span {
+    color: #06942a;
+    font-size: 12px;
+}
+.product-1 .pro .des h5 {
+    padding-top: 10px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.product-1 .pro .des .star {
+    padding-top: 10px;
+    font-size: 14px;
+    color: gold;
+}
+
+.product-1 .pro .des .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 5px 5px;
+}
+.product-1 .pro .price h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+.product-1 .pro .price a {
+    display: block;
+    text-align: end;
+    font-size: 20px;
+    color: #000;
+    background-color: #08817921;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.product-1 .price a:hover {
+    background-color: #088179;
+    color: #fff;
+}

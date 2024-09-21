@@ -1,0 +1,108 @@
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #a9a9a938;
+    padding: 25px;
+}
+
+@media (max-width: 767px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+footer .first-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    footer .first-col {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+}
+
+footer h4 {
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .first-col .icons .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+
+footer p {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+footer .col-about a {
+    margin: 10px 0;
+    font-size: 13px;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+
+footer .third-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 150px;
+}
+
+footer .third-col a {
+    margin: 10px 0;
+    font-size: 13px;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+
+footer .last-col .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+footer .last-col .row div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+footer .last-col .row div span {
+    font-size: 14px;
+}
+
+footer .pay-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .pay-images img {
+    margin:  25px;
+    height: 30px;
+}

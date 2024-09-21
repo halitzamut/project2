@@ -1,0 +1,40 @@
+
+
+.shop-page {
+    background-image: url("../../assets/images/bachground/04.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-page  h2 {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #488d86d5;
+}
+.shop-page p {
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #488d86d5;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pagination a {
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pagination a Button {
+    margin: 0;
+}
